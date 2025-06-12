@@ -1,9 +1,9 @@
 --[[
 
--- This Source Was Developed By (RsU) @sshhs.--
---   This Is The Source Channel @sshhs .   --
+-- This Source Was Developed By (RsU) @pp5pp5.--
+--   This Is The Source Channel @pp5pp5 .   --
 --           - Beef  - 
---        - https://t.me/sshhs -
+--        - https://t.me/pp5pp5 -
 
 ]] 
 URL     = require("./libs/url")
@@ -1686,19 +1686,19 @@ local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo=https://t.me/f_8_s &caption=".. URL.escape(tt).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) end
 if text == '‹ مبرمج السورس ›' or text == 'رضا ' or text == 'رسو' or text == 'مطور السورس' or text == 'المبرمج' then
 local tt =[[
-*↯︙Dev Beef * : @sshhs
+*↯︙Dev Beef * : @pp5pp5
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'رضـا', url = "https://t.me/sshhs"}
+{text = 'رضـا', url = "https://t.me/pp5pp5"}
 },
 {
 {text = '‹ Beef  ›', url='https://t.me/f_8_s '},
 },
 }
 local msgg = msg_id/2097152/0.5
-https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo=https://t.me/sshhs&caption=".. URL.escape(tt).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) end
+https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo=https://t.me/pp5pp5&caption=".. URL.escape(tt).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) end
 if text == '‹ تحديثات السورس ›' or text == 'قناة التحديثات' or text == 'تحديثات السورس' then
 local tt =[[
 ↯︙[Exp Source](https://t.me/f_8_s ) .
@@ -1878,7 +1878,7 @@ else
 Get_Json = Get_Json..',"'..v..'"' end end   
 Get_Json = Get_Json..'],'
 end
-Get_Json = Get_Json..'"Dev":"sshhs"}'
+Get_Json = Get_Json..'"Dev":"pp5pp5"}'
 end
 Get_Json = Get_Json..'}}'
 local File = io.open('./'..UserBot..'.json', "w")
@@ -7555,7 +7555,7 @@ return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)
 end
 return LuaTele.sendText(msg_chat_id,msg_id,'*اموت بيڪك يࢪوحي 🥳💘*',"md",true)  
 end
-if text == '@sshhs' or text == 'sshhs' then
+if text == '@pp5pp5' or text == 'pp5pp5' then
 if not Redis:get(TheBeef .."Beef :Sasa:Jeka"..msg_chat_id) then
 return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
 end
@@ -11168,7 +11168,7 @@ Welcome To Beef
 ↯︙[Beef ](https://t.me/f_8_s ) .
 ]]
 keyboard = {} 
-keyboard.inline_keyboard = {{{text = '‹ Source Channel ›', url = "https://t.me/f_8_s "}},{{text = '‹ Developer', url = "https://t.me/sshhs"},{text = 'Tws Beef  ›', url = "https://t.me/sshhs"}},{{text = '‹ Beef ›', url = "https://t.me/f_8_s "}}}
+keyboard.inline_keyboard = {{{text = '‹ Source Channel ›', url = "https://t.me/f_8_s "}},{{text = '‹ Developer', url = "https://t.me/pp5pp5"},{text = 'Tws Beef  ›', url = "https://t.me/pp5pp5"}},{{text = '‹ Beef ›', url = "https://t.me/f_8_s "}}}
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo=https://t.me/f_8_s &caption=".. URL.escape(tt).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) end
 if text == 'الاوامر' then
@@ -15920,10 +15920,10 @@ Redis:sadd(TheBeef ..'Beef :Num:User:Pv',msg.sender_id.user_id)
 if not msg.DevelopersAS then
 if not Redis:get(TheBeef .."Beef :Start:Bot") then
 local CmdStart = '↯︙مرحبا انا بوت اسمي ‹ '..(Redis:get(TheBeef .."Beef :Name:Bot") or "الجي")..' ›\n↯︙اختصاصي التسليه وحماية المجموعات\n↯︙من المخربين والتفليش والسبام والخ\n↯︙فقط قم برفعي ادمن في مجموعتك\n↯︙وارسل كلمة ↫ ‹ تفعيل ›\n ↯︙ارسل /play للتمتع بأوامر الأعضاء'
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '‹ المطور ›', url = "t.me/"..UserSudo..""},},{{text = '‹ قناة السورس ›', url = 't.me/f_8_s '},{text = '‹ لتنصيب بوت ›', url = 't.me/sshhs'},},{{text = '‹ اضفني الى مجموعتك ›', url = 't.me/'..UserBot..'?startgroup=new'},},}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '‹ المطور ›', url = "t.me/"..UserSudo..""},},{{text = '‹ قناة السورس ›', url = 't.me/f_8_s '},{text = '‹ لتنصيب بوت ›', url = 't.me/pp5pp5'},},{{text = '‹ اضفني الى مجموعتك ›', url = 't.me/'..UserBot..'?startgroup=new'},},}}
 return LuaTele.sendText(msg_chat_id,msg_id,CmdStart,"md",false, false, false, false, reply_markup)
 else
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '‹ المطور ›', url = "t.me/"..UserSudo..""},},{{text = '‹ قناة السورس ›', url = 't.me/f_8_s '},{text = '‹ لتنصيب بوت ›', url = 't.me/sshhs'},},{{text = '‹ اضفني الى مجموعتك ›', url = 't.me/'..UserBot..'?startgroup=new'},},}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = '‹ المطور ›', url = "t.me/"..UserSudo..""},},{{text = '‹ قناة السورس ›', url = 't.me/f_8_s '},{text = '‹ لتنصيب بوت ›', url = 't.me/pp5pp5'},},{{text = '‹ اضفني الى مجموعتك ›', url = 't.me/'..UserBot..'?startgroup=new'},},}}
 return LuaTele.sendText(msg_chat_id,msg_id,Redis:get(TheBeef .."Beef :Start:Bot"),"md",false, false, false, false, reply_markup) end
 else
 local reply_markup = LuaTele.replyMarkup{type = 'keyboard',resize = true,is_personal = true, data = {{{text = '‹  السورس  ›',type = 'text'},{text = '‹  اسم البوت  ›', type = 'text'},},{{text = '‹  المطورين  ›',type = 'text'},{text = '‹  الاحصائيات  ›',type = 'text'},},{{text = '‹  الاذاعة  ›',type = 'text'},{text = '‹  العام  ›', type = 'text'},},{{text = '‹  الاشتراك الاجباري  ›',type = 'text'},{text = '‹  التفعيل والتعطيل  ›',type = 'text'},},{{text = '‹  ردود الخاص  ›',type = 'text'},},}}
@@ -16514,7 +16514,7 @@ keyboard.inline_keyboard = {{{text = '‹ Source Channel .', url = "https://t.me
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo=https://t.me/f_8_s &caption=".. URL.escape(tt).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) end
 if text == '‹  مطور السورس ›' or text == 'مطور السورس' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("sshhs")
+local UserId_Info = LuaTele.searchPublicChat("pp5pp5")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -16529,7 +16529,7 @@ local TestText = "↯︙*Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = 'رضـا', url = "https://t.me/sshhs"}
+{text = 'رضـا', url = "https://t.me/pp5pp5"}
 },
 {
 {text = '‹ Beef  ›', url='https://t.me/f_8_s '},
@@ -16542,7 +16542,7 @@ local TestText = "- معلومات مبࢪمج السورس : \\nn: name Dev . [
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = 'رضـا', url = "https://t.me/sshhs"}
+{text = 'رضـا', url = "https://t.me/pp5pp5"}
 },
 {
 {text = '‹ Beef  ›', url='https://t.me/f_8_s '},
